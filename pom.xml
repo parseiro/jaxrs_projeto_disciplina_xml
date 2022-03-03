@@ -14,9 +14,9 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <version.payara>5.2021.5</version.payara>
+        <version.payara>5.2021.4</version.payara>
     </properties>
-    
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -31,6 +31,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>jakarta.platform</groupId>
+            <artifactId>jakarta.jakartaee-api</artifactId>
+            <version>9.0.0</version>
+        </dependency>
+<!--        <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-web-api</artifactId>
             <scope>provided</scope>
@@ -55,7 +60,7 @@
             <artifactId>microprofile</artifactId>
             <scope>provided</scope>
             <type>pom</type>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>

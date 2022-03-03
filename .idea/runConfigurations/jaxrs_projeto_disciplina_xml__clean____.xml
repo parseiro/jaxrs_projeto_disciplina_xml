@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="jaxrs_projeto_disciplina_xml [package...]" type="PAYARA_MICRO_CONFIGURATION" factoryName="Maven" nameIsGenerated="true">
+  <configuration default="false" name="jaxrs_projeto_disciplina_xml [clean...]" type="PAYARA_MICRO_CONFIGURATION" factoryName="Maven" nameIsGenerated="true">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -10,6 +10,7 @@
           </option>
           <option name="goals">
             <list>
+              <option value="clean" />
               <option value="package" />
               <option value="payara-micro:start" />
             </list>
